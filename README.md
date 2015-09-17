@@ -1,4 +1,4 @@
-# elevation-profiler
-tool to calculate detailed profile and transverse terrain curvature
+# Elevation profiler
+Elevation profiler is a GIS tool that automatically calculates transverse or longitudinal elevation profiles of different lengths starting from a shapefile of points and a digital elevation model (DEM). 
 
 #krebs
