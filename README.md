@@ -20,9 +20,6 @@ Through a simple form interface the user can choose some parameters that define 
 References
 ----------
 
-•	Krebs, Patrik; Stocker, Markus; Pezzatti, Gianni Boris; Conedera, Marco; 2015. An alternative approach to transverse and profile terrain curvature. International Journal of Geographical Information Science, 29(5), pp. 643-666.
-•	Markus Stocker (markus.stocker@gmail.com): Research Group of Environmental Informatics, University of Eastern Finland, Kuopio, Finland.
-•	Patrik Krebs (patrik.krebs@wsl.ch) and Gianni Boris Pezzatti: Insubric Ecosystems Group, Swiss Federal Research Institute WSL, Bellinzona, Switzerland.
-
-
-
+* Krebs, Patrik; Stocker, Markus; Pezzatti, Gianni Boris; Conedera, Marco; 2015. An alternative approach to transverse and profile terrain curvature. International Journal of Geographical Information Science, 29(5), pp. 643-666.
+* Markus Stocker (markus.stocker@gmail.com): Research Group of Environmental Informatics, University of Eastern Finland, Kuopio, Finland.
+* Patrik Krebs (patrik.krebs@wsl.ch) and Gianni Boris Pezzatti (boris.pezzatti@wsl.ch): Insubric Ecosystems Group, Swiss Federal Research Institute WSL, Bellinzona, Switzerland.
