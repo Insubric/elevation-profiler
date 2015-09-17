@@ -9,5 +9,7 @@ An elevation profile represents the intersection of a vertical plane with the DE
 Versions and requirements
 -------------------------
 At the moment (september 2015), the tool is available in the following two versions:
+
 1.	For ArcGIS 9.3 (and previous). Originally the Elevation profiler was conceived as a VBA (Visual Basic for Applications) macro ready to be added and run from the visual basic editor in ArcGIS 9.3 and previous versions. This first version is composed by a form interface and five modules.
+
 
