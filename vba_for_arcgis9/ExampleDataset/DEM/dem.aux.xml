@@ -1,0 +1,9 @@
+<PAMDataset>
+  <SRS>PROJCS[&quot;CH1903_LV03&quot;,GEOGCS[&quot;GCS_CH1903&quot;,DATUM[&quot;D_CH1903&quot;,SPHEROID[&quot;Bessel_1841&quot;,6377397.155,299.1528128]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Hotine_Oblique_Mercator_Azimuth_Center&quot;],PARAMETER[&quot;False_Easting&quot;,600000.0],PARAMETER[&quot;False_Northing&quot;,200000.0],PARAMETER[&quot;Scale_Factor&quot;,1.0],PARAMETER[&quot;Azimuth&quot;,90.0],PARAMETER[&quot;Longitude_Of_Center&quot;,7.439583333333333],PARAMETER[&quot;Latitude_Of_Center&quot;,46.95240555555556],UNIT[&quot;Meter&quot;,1.0]]</SRS>
+  <Metadata domain="ESRI">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue le_hex_equiv="000000E0FFFFEFC7">-3.40282346638529E+038</NoDataValue>
+  </PAMRasterBand>
+</PAMDataset>
