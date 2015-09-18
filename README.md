@@ -1,6 +1,6 @@
 Description
 -----------
-**Elevation profiler** (see Krebs et al. 2015) is a GIS tool designed to work with ArcGIS that automatically calculates transverse or longitudinal elevation profiles of different lengths starting from a digital elevation model (e.g. high resolution Lidar DEM) and a shapefile of points (i.e. the midpoints of the profile segments). The calculated profiles are then saved in comma-separated tabular data files (.csv).
+**Elevation profiler** (see Krebs et al. 2015) is an open source GIS tool designed to work with ArcGIS that automatically calculates transverse or longitudinal elevation profiles of different lengths starting from a digital elevation model (e.g. high resolution Lidar DEM) and a shapefile of points (i.e. the midpoints of the profile segments). The calculated profiles are then saved in comma-separated tabular data files (.csv).
 
 Definitions
 ----------------------
