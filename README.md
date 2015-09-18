@@ -8,10 +8,10 @@ An elevation profile represents the intersection of a vertical plane with the DE
 
 Versions and requirements
 -------------------------
-At the moment (September 2015), the tool is available in the following two versions:
+At the moment (September 2015), the tool is available in the following two variants:
 
-1.	For ArcGIS 9.3 (and previous). Originally the Elevation profiler was conceived as a VBA (Visual Basic for Applications) macro ready to be added and run from the visual basic editor in ArcGIS 9.3 and previous versions. This first version is composed by a form interface and five modules.
-2.	For ArcGIS 10.0 (and higher). Starting at version 10, VBA is no longer supported in ArcGIS and a special license is required to open the VBA editor and to use any macro or customization built with this code. To overcome this problem, the Elevation profiler GIS tool has been migrated to Visual Basic .NET (VB.NET) and is now provided as an add-in for ArcGIS.
+* **VBA**	for ArcGIS 9.3 (and previous). Originally the Elevation profiler was conceived as a VBA (Visual Basic for Applications) macro ready to be added and run from the visual basic editor in ArcGIS 9.3 and previous versions. This first version is composed by a form interface and five modules. The code is found in the *vba_for_arcgis9* folder.
+* **Add-in** for ArcGIS 10.0 (and higher). Starting at version 10, VBA is no longer supported in ArcGIS and a special license is required to open the VBA editor and to use any macro or customization built with this code. To overcome this problem, the Elevation profiler GIS tool has been migrated to Visual Basic .NET (VB.NET) and is now provided as an add-in for ArcGIS. The code is found in the *addin* folder.
 
 Interface
 ---------
@@ -25,5 +25,5 @@ References
 ----------
 
 * Krebs, Patrik; Stocker, Markus; Pezzatti, Gianni Boris; Conedera, Marco; 2015. An alternative approach to transverse and profile terrain curvature. *International Journal of Geographical Information Science*, 29(5), pp. 643-666.
-* Markus Stocker (markus.stocker@gmail.com): Research Group of Environmental Informatics, University of Eastern Finland, Kuopio, Finland.
 * Patrik Krebs (patrik.krebs@wsl.ch) and Gianni Boris Pezzatti (boris.pezzatti@wsl.ch): Insubric Ecosystems Group, Swiss Federal Research Institute WSL, Bellinzona, Switzerland.
+* Markus Stocker (markus.stocker@gmail.com): Research Group of Environmental Informatics, University of Eastern Finland, Kuopio, Finland.
