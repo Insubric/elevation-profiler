@@ -1,0 +1,34 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>WSL_ElevationProfiler</Name>
+  <AddInID>{029fe73e-2307-4f57-b083-c54ff47badad}</AddInID>
+  <Description>This tool allows to calculate plan and profile curvatures.</Description>
+  <Version>1.0</Version>
+  <Image>Images\ArcMapAddin1.png</Image>
+  <Author>P.Krebs, GB.Pezzatti, M.Stocker</Author>
+  <Company>WSL Swiss Federal Institute for Forest, Snow and Landscape</Company>
+  <Date>3/27/2015</Date>
+  <Targets>
+    <Target name="Desktop" version="10.2" />
+  </Targets>
+  <AddIn language="CLR4.5" library="WSL_ElevationProfiler.dll" namespace="WSL_ElevationProfiler">
+    <ArcMap>
+      <Commands>
+        <Button id="WSL_ElevationProfiler_ProfilerToggleButton" class="btnProfiler" caption="WSL Elevation Profiler" category="WSL Controls" image="Images\DockWin_Profiler.png" tip="Toggle WSL Elevation Profiler dockable window." message="Open dockable window.">
+          <Help heading="Toggle">Turns the WSL Profiler dockable window on and off.</Help>
+        </Button>
+      </Commands>
+      <Toolbars>
+        <Toolbar id="WSL_Toolbar" caption="WSL Toolbar">
+          <Items>
+            <Button refID="WSL_ElevationProfiler_ProfilerToggleButton" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+      <DockableWindows>
+        <DockableWindow id="WSL_ElevationProfiler_frmProfiler" class="frmProfiler+AddinImpl" caption="WSL Elevation Profiler" image="Images\DockWin_Profiler.png">
+          <InitialPlacement height="800" width="300" state="pinned" position="right" />
+        </DockableWindow>
+      </DockableWindows>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
