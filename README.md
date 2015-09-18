@@ -15,7 +15,7 @@ At the moment (September 2015), the tool is available in the following two varia
 
 Interface
 ---------
-Through a simple form interface the user can choose some parameters that define the characteristics of the required profiles. At first the user has to decide which type of profile (TEP or LEP) he want to obtain. Then with the *minimum length*, the *maximum length* and the *interval* the user decides the list of increasing lengths of the profiles he wants to obtain for each point or site. The *resolution* defines the number of points that will be created on the profile segments. For instance with a resolution of 1 meter a 100 meters long elevation profile will be composed by 101 segment points. The resolution has to be set by considering the cell size, or spatial resolution, of the DEM raster.
+Through a simple form interface the user can choose some parameters that define the characteristics of the required profiles. At first the user has to decide which type of profile (TEP or LEP) he want to obtain. Then with the *minimum length*, the *maximum length* and the *interval* the user decides the list of increasing lengths of the profiles he wants to obtain for each point or site. The level of accuracy adopted for the procedure of orientation of the elevation profile can be controlled by changing the *number of circle points*. This parameter directly affects the time required for calculations. The *resolution* defines the number of points that will be created on the profile segments. For instance with a resolution of 1 meter a 100 meters long elevation profile will be composed by 101 segment points. The resolution has to be set by considering the cell size, or spatial resolution, of the DEM raster.
 
 How it works
 ------------
